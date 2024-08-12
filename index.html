@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentals of Web Development</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMrylaP9m4tJXES4HyI4yOHEsJ5hlqMIyqlV4p1" crossorigin="anonymous">
 </head>
 <body>
     <!-- Top Nav bar -->
@@ -64,27 +67,27 @@
         </div>
     </section>
 
-
-    <!-- Testimonials Section -->
-    <!--
-    <section id="testimonials" class="testimonials-section">
-        <h2>What Our Clients Say</h2>
-        <div class="testimonials-container">
-            <div class="testimonial-box">
-                <p>"Fantastic service! Highly recommend."</p>
-                <cite>- John Doe</cite>
-            </div>
-            <div class="testimonial-box">
-                <p>"A pleasure to work with. Very professional."</p>
-                <cite>- Jane Smith</cite>
-            </div>
-            <div class="testimonial-box">
-                <p>"Fantastic service! Highly recommend."</p>
-                <cite>- John Doe</cite>
-            </div>
+    <!-- Skills & Education Section -->
+    <section id="skills-education" class="skills-education-section">
+        <div class="skills">
+            <h2>💻 Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Web Design</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+        <div class="education">
+            <h2>🎓 Education</h2>
+            <ul>
+                <li>Bachelor of Science in Computer Science, XYZ University</li>
+                <li>Web Development Bootcamp, ABC Institute</li>
+                <!-- Add more education items as needed -->
+            </ul>
         </div>
     </section>
-    -->
 
     <!-- Contact Me Section -->
     <section id="contact" class="contact-section">
@@ -93,10 +96,21 @@
         <div class="contact-container">
             <!-- Contact Information -->
             <div class="contact-info">
-                <!--<h3>Contact Information</h3>-->
-                <p><strong>Email:</strong> contact@ngongroad.org</p>
-                <p><strong>Phone:</strong> (123) 456-7890</p>
-                <p><strong>Address:</strong> 1234 Street Name, City, Country</p>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i> <!-- Email Icon -->
+                    <span class="icon">✉️</span>
+                    <p><strong>Email:</strong> contact@ngongroad.org</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i> <!-- Phone Icon -->
+                     <span class="icon">📞</span>
+                    <p><strong>Phone:</strong> (123) 456-7890</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i> <!-- Address Icon -->
+                    <span class="icon">📍</span>
+                    <p><strong>Address:</strong> 1234 Street Name, City, Country</p>
+                </div>
             </div>
 
             <!-- Contact Form -->
